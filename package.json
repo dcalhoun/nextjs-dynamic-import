@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-dynamic-import",
+  "version": "0.0.1",
+  "description": "Next.js dynamic import test case.",
+  "main": "index.js",
+  "repository": "git@github.com:dcalhoun/nextjs-dynamic-import.git",
+  "author": "David Calhoun",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^0.8.0",
+    "next": "^6.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^0.8.0"
+  }
+}
